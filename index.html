@@ -3,50 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>My Portfolio</title>
 </head>
 <body>
 
-    <img src="images/logo.png" alt="Profile Picture" width="80" height="80">
+    
+        <header>
+            
+           <div class="header-container">
+                <div class="logo">
+                 <img src="images/logo.png" alt="Profile Picture" width="90" height="90">
+                </div>
+        
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>  
+                </div>
+           </div>
+            
+        </header>
+    
 
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>  
 
     <section id="about">
 
-        <img src="images/profile1.png" alt="Profile Picture" width="150" height="150">
+        <div class="about-container">
 
-        <h1>About Me</h1>
-        <p>Hi, I am Shree Niwas Thakur, a passionate and motivated Web Developer who enjoys creating modern, responsive, and user-friendly websites. I have an interest in both front-end and back-end development and enjoy learning new technologies to improve my skills. I work with technologies such as HTML, CSS, JavaScript, and Git/GitHub, and I’m continuously exploring new tools and frameworks. My goal is to build useful, creative, and efficient web applications while growing as a professional developer.</p>
+            <div>
+                <img src="images/profile1.png" alt="Profile Picture" width="150" height="150">
+            </div>
+
+            <div class="about-text">
+                <h1>ABOUT ME</h1>
+
+                <p>Hi, I am Shree Niwas Thakur, a passionate and motivated Web Developer who enjoys creating modern, responsive, and user-friendly websites. I have an interest in both front-end and back-end development and enjoy learning new technologies to improve my skills. I work with technologies such as HTML, CSS, JavaScript, and Git/GitHub, and I’m continuously exploring new tools and frameworks. My goal is to build useful, creative, and efficient web applications while growing as a professional developer.</p>
+
+            </div>
+
+        </div>
+       
     </section>
 
     <section id="projects">
 
-     <h2>My Projects</h2>
-     <article>
-         <h3>E-commerce Website</h3>
-         <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-     </article>
-     <article>
-         <h3>Restaurant Management System</h3>
-         <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-     </article>
-     <article>
-         <h3>Student Information System</h3>
-         <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-     </article>
+        <h2>MY PROJECTS</h2>
 
+        <div class="projects-container">
+
+            <article class="project-card">
+
+                <img src="./images/resturant.png" alt="Restaurant Management System" width="200">
+
+                <div class="project-content">
+                    <h3>Restaurant Management System</h3>
+
+                    <p>
+                        A system developed to manage restaurant orders, menus, customers, and other daily restaurant activities.
+                    </p>
+                    
+                </div>
+
+                <a href="https://github.com/shreee-cyber/Restaurant-Management-System">View Project</a>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <img src="./images/student.png" alt="Student Information System" width="200">
+
+                <div class="project-content">
+                    <h3>Student Information System</h3>
+
+                    <p>
+                        A system developed to manage student records, grades, and other academic information.
+                    </p>
+
+                </div>
+
+                <a href="project.html">View Project</a>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <img src="./images/e-commerce.png" alt="E-commerce Website" width="200">
+
+                <div class="project-content">
+                    <h3>E-commerce Website</h3>
+
+                    <p>
+                        A responsive e-commerce website designed to provide users with a simple and convenient online shopping experience.
+                    </p>
+
+                </div>
+
+                <a href="project.html">View Project</a>
+
+            </article>
+
+
+        </div>
+    
     </section>
 
     <section id="skills"> 
-        <h3>My Skills</h3>
+        <h3>MY SKILLS</h3>
         <dl>
             <dt>Front-end Development </dt>
             <dd>HTML, CSS, JavaScript</dd>
@@ -61,53 +132,58 @@
 
     <section id="education">
 
-    <h3>Education</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>S.N</th>
-                <th>Level</th>
-                <th>Completion Year</th>
-                <th>Grade</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Secondary</td>
-                <td>2079</td>
-                <td>A</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Higher Secondary</td>
-                <td>2081</td>
-                <td>B+</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Bachelor</td>
-                <td>Ongoing</td>
-                <td>-</td>
-            </tr>
-    </table>
+        <h3>EDUCATION</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.N</th>
+                    <th>Level</th>
+                    <th>Completion Year</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Secondary</td>
+                    <td>2079</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Higher Secondary</td>
+                    <td>2081</td>
+                    <td>B+</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bachelor</td>
+                    <td>Ongoing</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
 
     </section>
 
+
     <section id="contact">
-        <h3>Contact Me</h3>
+
+        <h3>CONTACT ME</h3>
         
         <form action="submit_form.php" method="post">
+
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Send Message">
+
         </form>
 
     </section>
@@ -115,10 +191,13 @@
 
     <footer>
 
-        <h3>Follow Us </h3>
+        <h3>FOLLOW US </h3>
 
         <a href="https://www.facebook.com/" target="_blank">
             <img src="./images/facebook.png" alt="Facebook" width="40">
+        </a>
+        <a href="https://github.com/" target="_blank">
+            <img src="./images/Github.png" alt="GitHub" width="40">
         </a>
 
         <a href="https://www.instagram.com/" target="_blank">
@@ -129,9 +208,10 @@
             <img src="./images/X.png" alt="Twitter" width="40">
         </a>
 
-        <p>&copy; 2024 Shree Niwas Thakur. All rights reserved.</p>
+        <p>&copy; 2026 Shree Niwas Thakur. All rights reserved.</p>
 
     </footer>
     
+
 </body>
 </html>
