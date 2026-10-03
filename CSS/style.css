@@ -199,7 +199,6 @@ article a:hover {
 
 /* Skill Section CSS  */
 
-
 #skills {
   padding: 60px 20px;
   background: transparent;
@@ -215,7 +214,6 @@ article a:hover {
   letter-spacing: 1px;
 }
 
-/* Card container */
 #skills dl {
   max-width: 800px;
   margin: auto;
@@ -226,7 +224,6 @@ article a:hover {
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-/* Category title */
 #skills dt {
   font-size: 1.2rem;
   font-weight: 600;
@@ -236,7 +233,6 @@ article a:hover {
   padding-left: 15px;
 }
 
-/* little accent line */
 #skills dt::before {
   content: "";
   position: absolute;
@@ -248,7 +244,6 @@ article a:hover {
   border-radius: 5px;
 }
 
-/* Skill list */
 #skills dd {
   margin: 8px 0 15px 20px;
   font-size: 0.95rem;
@@ -256,13 +251,11 @@ article a:hover {
   line-height: 1.6;
 }
 
-/* Hover effect */
 #skills dl:hover {
   transform: translateY(-5px);
   transition: 0.3s ease;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   #skills dl {
     padding: 20px;
@@ -276,7 +269,6 @@ article a:hover {
 
 
 /* CSS for Education Section */
-
 
 #education {
   padding: 40px 20px;
@@ -292,7 +284,6 @@ article a:hover {
   letter-spacing: 1px;
 }
 
-/* Table Styling */
 #education table {
   width: 90%;
   max-width: 800px;
@@ -305,7 +296,6 @@ article a:hover {
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-/* Table Header */
 #education thead {
   background: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
 }
@@ -318,14 +308,12 @@ article a:hover {
   letter-spacing: 0.5px;
 }
 
-/* Table Body */
 #education td {
   padding: 14px;
   font-size: 14px;
   color: #252735;
 }
 
-/* Row Styling */
 #education tbody tr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   transition: 0.3s;
@@ -336,7 +324,6 @@ article a:hover {
   transform: scale(1.01);
 }
 
-/* Alternate row color */
 #education tbody tr:nth-child(even) {
   background: rgba(255, 255, 255, 0.03);
 }
@@ -352,7 +339,6 @@ article a:hover {
   padding: 80px 20px;
 }
 
-/* Title */
 #contact h3 {
   font-size: 24px;
   margin-bottom: 30px;
@@ -360,23 +346,17 @@ article a:hover {
   letter-spacing: 1px;
 }
 
-/* FORM CONTAINER */
 #contact form {
   width: 100%;
   max-width: 800px;
   padding: 30px;
   border-radius: 16px;
-
-  /* Glass effect */
   background: linear-gradient(135deg, #fff5fb, #f0f4ff);
   backdrop-filter: blur(12px);
-
   border: 1px solid rgba(255, 255, 255, 0.1);
-
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
-/* LABELS */
 #contact label {
   display: block;
   margin-bottom: 6px;
@@ -384,7 +364,6 @@ article a:hover {
   color: #252735;
 }
 
-/* INPUT + TEXTAREA */
 #contact input,
 #contact textarea {
   width: 100%;
@@ -402,20 +381,17 @@ article a:hover {
   transition: all 0.3s ease;
 }
 
-/* Placeholder */
 #contact input::placeholder,
 #contact textarea::placeholder {
   color: black;
 }
 
-/* Focus effect */
 #contact input:focus,
 #contact textarea:focus {
   border-color: #79CBCA;
   box-shadow: 0 0 8px rgba(121, 203, 202, 0.4);
 }
 
-/* BUTTON */
 #contact input[type="submit"] {
   background: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
   border: none;
@@ -425,7 +401,6 @@ article a:hover {
   transition: all 0.3s ease;
 }
 
-/* Button hover */
 #contact input[type="submit"]:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 15px rgba(121, 203, 202, 0.4);
@@ -446,7 +421,6 @@ footer {
   border-top: 1px solid rgba(255,255,255,0.05);
 }
 
-/* Heading */
 footer h3 {
   font-size: 24px;
   margin-bottom: 20px;
@@ -454,14 +428,12 @@ footer h3 {
   color: #252735;
 }
 
-/* Social icons container */
 footer a {
   display: inline-block;
   margin: 0 10px;
   transition: all 0.3s ease;
 }
 
-/* Icon images */
 footer img {
   width: 40px;
   height: 40px;
@@ -471,13 +443,11 @@ footer img {
   transition: all 0.3s ease;
 }
 
-/* Hover effect */
 footer a:hover img {
   transform: translateY(-5px) scale(1.1);
   background: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
 }
 
-/* Copyright text */
 footer p {
   margin-top: 25px;
   font-size: 0.9rem;
@@ -485,9 +455,7 @@ footer p {
 }
 
 
-
-
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-width: 1024px) {
   .header-container {
     flex-direction: column;
   }
@@ -500,5 +468,7 @@ footer p {
     flex-direction: column;
   }
 }
+
+
 
 
